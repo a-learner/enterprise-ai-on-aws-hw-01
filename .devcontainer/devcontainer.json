@@ -95,12 +95,7 @@
 			// terraform
 			"ghcr.io/devcontainers/features/terraform:1": {},
 			// docker-in-docker
-			"ghcr.io/devcontainers/features/docker-in-docker:2": {},
-			// java
-			"ghcr.io/devcontainers-extra/features/maven-sdkman:2": {},
-			"ghcr.io/devcontainers-extra/features/gradle-sdkman:2": {},
-			// dotnet
-			"ghcr.io/devcontainers/features/dotnet:2": {}
+			"ghcr.io/devcontainers/features/docker-in-docker:2": {}
 		  },
 		  "mounts": ["source=devcontainer-zshhistory,target=/commandhistory,type=volume"],
       "postCreateCommand": "bash scripts/post-create.sh"
