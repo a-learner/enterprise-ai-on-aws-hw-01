@@ -20,7 +20,7 @@ echo -e "see https://www.nerdfonts.com/font-downloads\n"
 echo "sym link zsh_history ..."
 mkdir -p /commandhistory 
 touch /commandhistory/.zsh_history
-chown -R $USERNAME /commandhistory
+sudo chown -R $USERNAME /commandhistory
 
 SNIPPET="export PROMPT_COMMAND='history -a' && export HISTFILE=/commandhistory/.zsh_history"
 echo "$SNIPPET" >> "/home/$USERNAME/.zshrc"
