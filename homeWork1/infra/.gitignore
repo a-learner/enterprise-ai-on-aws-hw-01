@@ -6,5 +6,5 @@ __pycache__
 *.egg-info
 
 # CDK asset staging directory
-.cdk.staging
-cdk.out
+# .cdk.staging
+# cdk.out
